@@ -1,0 +1,57 @@
+.response {
+	display: grid;
+	margin-bottom: 5px;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: 372px;
+    grid-template-rows: repeat(1,auto);
+}
+
+.responseArea {
+    font-size: 1.5rem;
+    grid-column: 1/2;
+    word-wrap:break-word;
+}
+
+.buttons {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: repeat(6, 60px);
+	grid-template-rows: repeat(5, 80px);
+	gap: 3px;
+}
+
+.innertxt{
+    font-size: 0.8rem;
+    margin-top: -2px;
+}
+
+button{
+    font-size: 1.4rem;
+}
+
+.boxC {
+	grid-column: 1/4;
+}
+.boxAC {
+	grid-column: 4/7;
+}
+.box1,
+.box4,
+.box7,
+.boxS {
+	grid-column: 1/3;
+}
+.box2,
+.box5,
+.box8,
+.box0 {
+	grid-column: 3/5;
+}
+.box3,
+.box6,
+.box9,
+.boxH {
+	grid-column: 5/7;
+}
